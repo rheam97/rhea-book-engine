@@ -26,6 +26,7 @@
   ## Usage
   Input a book in the search bar. Save a book. View saved books. Delete saved book.
 
+    ![usage](client/public/21-mern-homework-demo-01.gif)
   <a name="license"></a>
   ## Licensing
   This app is licensed under MIT. For more information, click on the badge link above.
