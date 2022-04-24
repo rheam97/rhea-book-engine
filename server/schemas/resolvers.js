@@ -32,10 +32,6 @@ Mutation: {
     },
     saveBook : async (parent, {input}, context)=> {
         if (context.user) {
-            const book = await Book.create({
-                ...args,
-                username: context.user.username
-            })
             await User.findByIdAndUpdate(
                 {_id: context.user._id},
                 { $addToSet: { savedBooks: input } },
